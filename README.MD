@@ -1,6 +1,4 @@
 # API de Reconhecimento Facial - FastAPI + Dlib
-
-# Integrantes
 # Integrantes
 
 - RM99499 – Guilherme Monteiro Espim
