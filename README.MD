@@ -27,7 +27,7 @@ Este projeto implementa uma API de **reconhecimento facial** utilizando **FastAP
 ## Video demonstrativo
 
 ```bash
-https://www.youtube.com/watch?v=SEU_VIDEO_AQUI
+https://www.youtube.com/watch?v=15VV0_NmKWk
 ```
 
 ## Objetivos do Projeto
