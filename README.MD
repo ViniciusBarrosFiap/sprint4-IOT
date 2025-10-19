@@ -1,12 +1,26 @@
 # API de Reconhecimento Facial - FastAPI + Dlib
 
 # Integrantes
+# Integrantes
 
-* RM97824 – Vinicius Oliveira de Barros
+- RM99499 – Guilherme Monteiro Espim
+- RM99279 – João Paulo Fonseca Zamperlini
+- RM98297 – Lucas Pisaneschi Speranzini
+- RM97937 – Pedro Henrique Fernandes Lô de Barros
+- RM97824 – Vinicius Oliveira de Barros
 
 ## Sinopse
 
 Este projeto implementa uma API de **reconhecimento facial** utilizando **FastAPI**, **Dlib** e **OpenCV**, com foco em **cadastro** e **autenticação facial** através de imagens. Os vetores faciais extraídos são armazenados localmente em um banco `db.pkl`, possibilitando o uso local e offline.
+
+---
+
+## ⚙️ Funcionalidade
+
+| Endpoint | Método | Descrição |
+|-----------|---------|------------|
+| `/cadastrar` | `POST` | Cadastra um novo rosto com nome e imagem. |
+| `/autenticar` | `POST` | Compara uma imagem com o banco existente e retorna o usuário correspondente. |
 
 ---
 
