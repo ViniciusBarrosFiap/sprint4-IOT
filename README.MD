@@ -54,7 +54,6 @@ https://www.youtube.com/watch?v=15VV0_NmKWk
 ls -lh servidor_face.py db.pkl *.dat
 ```
 
-![Estrutura do projeto](./imagens/estrutura.png)
 
 ---
 
@@ -78,7 +77,6 @@ uvicorn servidor_face:app --reload
 http://127.0.0.1:8000/docs
 ```
 
-![Documentação da API](./imagens/docs.png)
 
 ---
 
@@ -125,8 +123,6 @@ curl -X POST http://127.0.0.1:8000/autenticar \
 }
 ```
 
-![Resultado de autenticação](./imagens/autenticacao.png)
-
 ---
 
 ## 5. Funcionamento Interno
@@ -143,7 +139,6 @@ curl -X POST http://127.0.0.1:8000/autenticar \
 { "Vinicius": [0.12, -0.34, 0.56, ...] }
 ```
 
-![Comparação de vetores](./imagens/face_encoding.png)
 
 ---
 
